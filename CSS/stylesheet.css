@@ -1,152 +1,247 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    margin: auto;
-    width: 100%;
+  margin: auto;
+  width: 100%;
 }
 
 header {
-    background-image: url(../img/img1.jpg);
-    background-position: top;
-    background-size: cover;
-    position: relative;
-    height: 652px;
+  background-image: url(../img/img1.jpg);
+  background-position: top;
+  background-size: cover;
+  position: relative;
+  height: 652px;
 }
 
 .myNavbar {
-    width: 100%;
-    height: 59px;
-    background-color: white;
+  width: 100%;
+  height: 59px;
+  background-color: white;
 }
 
 ul li {
-    list-style-type: none;
-    float: left;
+  list-style-type: none;
+  float: left;
 }
 
 li a {
-    display: block;
-    color: black;
-    font-family: Raleway, sans-serif;
-    font-size: 16px;
-    line-height: 27px;
-    padding: 16px 16px 16px 16px;
-    text-align: center;
-    text-decoration: none;
+  display: block;
+  color: black;
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  padding: 16px 16px 16px 16px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .clearfix {
-    overflow: auto;
-    margin-left: 65%;
+  overflow: auto;
+  margin-left: 65%;
 }
 
 .logo p {
-    float: left;
-    padding: 16px 16px 16px 16px;
-    font-family: "Segoe UI", Arial, sans-serif;
-    line-height: 27px;
-    letter-spacing: 4px;
+  float: left;
+  padding: 16px 16px 16px 16px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 27px;
+  letter-spacing: 4px;
 }
 
 .text_1 p {
-    color: white;
-    font-family: Raleway, sans-serif;
-    font-size: 64px;
-    padding: 140px 0px 0px 48px;
+  color: white;
+  font-family: Raleway, sans-serif;
+  font-size: 64px;
+  padding: 140px 0px 0px 48px;
 }
 
 .button {
-    border-style: double;
-    border-width: medium;
-    border-color: white;
-    color: white;
-    background-color: inherit;
-    padding: 25px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    font-weight: bold;
-    font-family: Raleway , sans-serif;
-    margin: 55px 0px 0px 280px;
-    cursor: pointer;
+  border-style: double;
+  border-width: medium;
+  border-color: white;
+  color: white;
+  background-color: inherit;
+  padding: 25px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Raleway, sans-serif;
+  margin: 55px 0px 0px 300px;
+  cursor: pointer;
 }
 
 .social_media {
-    font-size: 25px;
-    padding: 200px 0px 0px 45px;
+  font-size: 25px;
+  padding: 200px 0px 0px 45px;
+}
+
+.company_info {
+  height: 600px;
+}
+
+.txt_company h2 {
+  text-align: center;
+  margin-top: 60px;
+  font-family: helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.txt_company p {
+  text-align: center;
+  margin-top: 30px;
+  font-family: helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.passion {
+  float: left;
+  width: 30%;
+}
+
+.passion i {
+  font-size: 70px;
+  margin: 100px 0px 0px 196px;
+}
+
+.passion h2 {
+  font-family: helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: normal;
+  margin: 30px 0px 0px 190px;
+}
+
+.passion p {
+  font-family: helvetica, sans-serif;
+  font-size: 17px;
+  margin: 30px 0px 0px 70px;
+  text-align: center;
+}
+
+.design {
+  float: left;
+  width: 30%;
+  margin-left: 30px;
+}
+
+.design i {
+  font-size: 70px;
+  margin: 100px 0px 0px 196px;
+}
+
+.design h2 {
+  font-family: helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: normal;
+  margin: 30px 0px 0px 199px;
+}
+
+.design p {
+  font-family: helvetica, sans-serif;
+  font-size: 17px;
+  margin: 30px 0px 0px 80px;
+  text-align: center;
+}
+
+.support {
+  float: left;
+  width: 30%;
+  margin-left: 30px;
+}
+
+.support i {
+  font-size: 70px;
+  margin: 100px 0px 0px 196px;
+}
+
+.support h2 {
+  font-family: helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: normal;
+  margin: 30px 0px 0px 185px;
+}
+
+.support p {
+  font-family: helvetica, sans-serif;
+  font-size: 17px;
+  margin: 30px 0px 0px 70px;
+  text-align: center;
 }
 
 
+/* Animations */
+
 @-webkit-keyframes fadeInLeft {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(-100%, 0, 0);
-        transform: translate3d(-100%, 0, 0);
-    }
-    to {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-    }
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
 }
 
 @keyframes fadeInLeft {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(-100%, 0, 0);
-        transform: translate3d(-100%, 0, 0);
-    }
-    to {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-    }
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
 }
 
 .text_1 p {
-    -webkit-animation-name: fadeInLeft;
-    animation-name: fadeInLeft;
-    animation-duration: 3s;
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  animation-duration: 3s;
 }
 
 .button {
-    -webkit-animation-name: fadeInLeft;
-    animation-name: fadeInLeft;
-    animation-duration: 3.6s;
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  animation-duration: 3.6s;
 }
 
 @-webkit-keyframes fadeInDownBig {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(0, -2000px, 0);
-        transform: translate3d(0, -2000px, 0);
-    }
-    to {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-    }
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
 }
 
 @keyframes fadeInDownBig {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(0, -2000px, 0);
-        transform: translate3d(0, -2000px, 0);
-    }
-    to {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-    }
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
 }
 
 .myNavbar {
-    -webkit-animation-name: fadeInDownBig;
-    animation-name: fadeInDownBig;
-    animation-duration: 3s
+  -webkit-animation-name: fadeInDownBig;
+  animation-name: fadeInDownBig;
+  animation-duration: 3s
 }
