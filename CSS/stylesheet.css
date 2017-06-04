@@ -82,7 +82,7 @@ li a {
 
 .company_info {
   height: 700px;
-  background-color: #e6e2d9;
+  background-color: #e8e6e4;
 }
 
 .txt_company h2 {
@@ -176,21 +176,38 @@ li a {
 
 .information {
   height: 660px;
-  background-color: #d4d3d1;
+  background-color: #dedbd7;
 }
 
-.contactus h2 {
+.information h2 {
   text-align: center;
   padding-top: 50px;
   font-family: helvetica, sans-serif;
-  font-weight: normal;
   font-size: 25px;
+}
+
+.contactus {
+  float: left;
+  margin-left: 190px;
+  margin-top: 140px;
+}
+
+.contactus i {
+  padding-top: 20px;
+  float: left;
+  font-size: 23px;
+}
+
+.contactus p {
+  padding-top: 20px;
+  padding-left: 70px;
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
 }
 
 form {
   float: right;
-  margin-top: 130px;
-  margin-right: 60px;
+  margin: 80px 60px 60px 0px;
   font-size: 18px;
 }
 
@@ -207,6 +224,7 @@ input[type=text], input[type=email] {
 input[type=submit] {
   background-color: black;
   border: none;
+  border-radius: 4px;
   color: white;
   font-size: 19px;
   width: 300px;
@@ -214,6 +232,10 @@ input[type=submit] {
   text-decoration: none;
   margin: 10px 0px 0px 150px;
   cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #242424;
 }
 
 
