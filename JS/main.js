@@ -160,3 +160,5 @@ function myMap() {
       ]
     });
   }
+
+  setTimeout(myMap,8000);
