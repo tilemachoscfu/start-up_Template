@@ -10,7 +10,7 @@
 
 header {
   background-image: url(../img/img1.jpg);
-  background-position: top;
+  background-position: right;
   background-size: cover;
   position: relative;
 }
@@ -37,7 +37,7 @@ li a {
 }
 
 .clearfix {
-  overflow: auto;
+  overflow: hidden;
   margin-left: 65%;
 }
 
@@ -239,43 +239,44 @@ input[type=submit]:hover {
 
 
 /* Animations */
-
-@-webkit-keyframes fadeInLeft {
+@keyframes pulse {
   from {
-    opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
+    transform: scale3d(1, 1, 1);
   }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
   to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
+    transform: scale3d(1, 1, 1);
   }
 }
 
-@keyframes fadeInLeft {
+.clearfix li:hover {
+  animation-name: pulse;
+  animation-duration: 1s;
+}
+
+
+@keyframes fadeIn {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
   }
+
   to {
     opacity: 1;
-    -webkit-transform: none;
-    transform: none;
   }
 }
 
 .text_1 p {
-  -webkit-animation-name: fadeInLeft;
-  animation-name: fadeInLeft;
-  animation-duration: 3s;
+  animation-name: fadeIn;
+  animation-duration: 4s;
 }
 
 .button {
-  -webkit-animation-name: fadeInLeft;
-  animation-name: fadeInLeft;
-  animation-duration: 3.6s;
+  animation-name: fadeIn;
+  animation-duration: 4s;
 }
 
 @-webkit-keyframes fadeInDownBig {
@@ -307,5 +308,5 @@ input[type=submit]:hover {
 .myNavbar {
   -webkit-animation-name: fadeInDownBig;
   animation-name: fadeInDownBig;
-  animation-duration: 3s
+  animation-duration: 2s;
 }
